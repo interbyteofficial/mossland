@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1558723584 source:c:\users\user\desktop\game\main.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"app.h"
+
+1558723431 c:\users\user\desktop\game\app.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1558723415 source:c:\users\user\desktop\game\app.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"app.h"
+
