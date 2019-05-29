@@ -2,26 +2,21 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="game" />
+		<Option title="objects" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/game" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/objects" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
-				<Linker>
-					<Add library="sfml-graphics" />
-					<Add library="sfml-system" />
-					<Add library="sfml-window" />
-				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/game" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/objects" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -37,23 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="animation.cpp" />
-		<Unit filename="animation.h" />
-		<Unit filename="app.cpp" />
-		<Unit filename="app.h" />
-		<Unit filename="camera.cpp" />
-		<Unit filename="camera.h" />
-		<Unit filename="inventory.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="object.cpp" />
-		<Unit filename="object.h" />
-		<Unit filename="particle.cpp" />
-		<Unit filename="particle.h" />
-		<Unit filename="player.cpp" />
-		<Unit filename="player.h" />
-		<Unit filename="random.h" />
-		<Unit filename="texturebase.cpp" />
-		<Unit filename="texturebase.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
