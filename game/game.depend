@@ -1,0 +1,148 @@
+# depslib dependency file v1.0
+1560083299 source:c:\users\user\desktop\game\main.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+	<vector>
+	<time.h>
+	"app.h"
+	"animation.h"
+	"texturebase.h"
+	"player.h"
+	"particle.h"
+	"camera.h"
+	"obj_static.h"
+	"random.h"
+	"statusbar.h"
+
+1558723431 c:\users\user\desktop\game\app.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1558723415 source:c:\users\user\desktop\game\app.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"app.h"
+
+1559336641 c:\users\user\desktop\game\animation.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1559336661 source:c:\users\user\desktop\game\animation.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"animation.h"
+
+1558951274 c:\users\user\desktop\game\textureload.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+
+1558953790 c:\users\user\desktop\game\texturebase.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+
+1558953807 source:c:\users\user\desktop\game\texturebase.cpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+	"texturebase.h"
+
+1559123872 source:c:\users\user\desktop\game\object.cpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+	"object.h"
+
+1560004455 c:\users\user\desktop\game\player.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+	"camera.h"
+	"obj_static.h"
+
+1559123706 c:\users\user\desktop\game\inventory.h
+	<vector>
+	<iostream>
+
+1560005273 c:\users\user\desktop\game\particle.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+	"camera.h"
+
+1560030971 source:c:\users\user\desktop\game\particle.cpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+	<math.h>
+	"particle.h"
+	"random.h"
+
+1559229274 c:\users\user\desktop\game\random.h
+	<iostream>
+
+1560031914 source:c:\users\user\desktop\game\camera.cpp
+	<iostream>
+	<math.h>
+	"camera.h"
+
+1560031818 c:\users\user\desktop\game\camera.h
+
+1560004596 source:c:\users\user\desktop\game\player.cpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+	"animation.h"
+	"player.h"
+	"obj_static.h"
+
+1559123753 c:\users\user\desktop\game\object.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+	"inventory.h"
+	"animation.h"
+	"camera.h"
+
+1560031001 source:c:\users\user\desktop\game\obj_static.cpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+	"obj_static.h"
+	"camera.h"
+	"animation.h"
+	"particle.h"
+	"random.h"
+	"error.h"
+
+1560005047 c:\users\user\desktop\game\obj_static.h
+	<SFML/Graphics.hpp>
+	<math.h>
+	<iostream>
+	"animation.h"
+	"camera.h"
+	"particle.h"
+
+1559167020 source:c:\users\user\desktop\game\random.cpp
+	<iostream>
+	"random.h"
+
+1560004864 source:c:\users\user\desktop\game\statusbar.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"statusbar.h"
+
+1559634178 c:\users\user\desktop\game\statusbar.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	"camera.h"
+
+1560082815 source:c:\users\user\desktop\game\error.cpp
+	<iostream>
+	"error.h"
+
+1560082812 c:\users\user\desktop\game\error.h
+	<iostream>
+
